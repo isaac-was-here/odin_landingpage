@@ -7,12 +7,13 @@ body {
     display: flex;
     background-color: #1F2937;
     height: 70px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 
 #title {
-    font: 48px extra-bold;
+    font: 24px extra-bold;
     color: #F9FAF8;
 }
 
@@ -21,9 +22,43 @@ ul {
     display: flex;
     margin: 0;
     padding: 0; 
+    gap: 18px;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
-    color: #cfcfcf;
+    color: #E5E7EB;
+}
+
+#secone {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    padding: 25px 100px;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 230px;
+    gap: 10px;
+}
+
+#maintext {
+    font: 48px extra-bold;
+    color: #F9FAF8;
+}
+
+#subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    width: 100px;
+    padding: 6px;
 }
