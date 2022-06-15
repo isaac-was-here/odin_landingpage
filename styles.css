@@ -1,0 +1,29 @@
+body {
+    /* body has a default margin of 8px*/
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    background-color: #1F2937;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title {
+    font: 48px extra-bold;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;  
+    display: flex;
+    margin: 0;
+    padding: 0; 
+}
+
+a {
+    text-decoration: none;
+    color: #cfcfcf;
+}
