@@ -90,3 +90,49 @@ button {
     gap: 20px;
 }
 
+#secthree {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote, #author{
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 8px 180px;
+}
+
+#author {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#secfour {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    width: 620px;
+    background-color: rgba(4, 89, 216, 0.705);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#footer {
+    background: #1F2937;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
