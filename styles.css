@@ -1,6 +1,7 @@
 body {
     /* body has a default margin of 8px*/
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
@@ -9,11 +10,12 @@ body {
     height: 70px;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 120px;
 }
 
 #title {
-    font: 24px extra-bold;
+    font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -48,7 +50,8 @@ a {
 }
 
 #maintext {
-    font: 48px extra-bold;
+    font-size: 48px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -60,6 +63,11 @@ a {
 button {
     width: 100px;
     padding: 6px;
+    background-color: #3882F6;
+    color: white;
+    border: solid white 1px;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 #sectwo {
@@ -72,7 +80,7 @@ button {
 
 #infohead {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 900;
     color: #1F2937;
 }
 
@@ -83,11 +91,16 @@ button {
     gap: 10px;
     width: 230px;
     text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+img {
+    border-radius: 8px;
 }
 
 #infos {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 #secthree {
@@ -101,14 +114,14 @@ button {
 
 #quote, #author{
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     padding: 8px 180px;
 }
 
 #author {
     align-self: flex-end;
     font-size: 26px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 #secfour {
@@ -121,7 +134,7 @@ button {
 #container {
     display: flex;
     width: 620px;
-    background-color: rgba(4, 89, 216, 0.705);
+    background-color: #3882F6;
     color: white;
     justify-content: space-between;
     align-items: center;
@@ -135,4 +148,5 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
